@@ -7,8 +7,8 @@ Data were collected from the UCI Machine learning repository found here: http://
 The Training and Test data sets were merged into a single data set that focused only on mean and standard deviations
 
 ##Identifiers
-*subject - The ID of the subject
-*activity - the activiity performed by the subject and coorespdoning measurement
+*`subject - The ID of the subject`
+*`activity - the activiity performed by the subject and coorespdoning measurement`
 
 ##Measurements
 *tBodyAcc-mean()-X
