@@ -4,7 +4,16 @@
 Data were collected from the UCI Machine learning repository found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ##Data Transformation
-The Training and Test data sets were merged into a single data set that focused only on mean and standard deviations
++ The data were transfarmed running the run_analysis.R script.
++ The features labels were extracted for only those items that involved mean and standard deviation (meanFrequency was omitted)
++ The activity labels were extracted.
++ The training and test data sets were extracted.
++ The subject and activity columns were added to the training data set.
++ The subject and activity columns were added to the test data set.
++ All data was merged using rbind.
++ Labels were added to the mergeddata.
++ Data was metled 
++ Final tidy data set was produced.
 
 ##Identifiers
 - `subject` - The ID of the subject
