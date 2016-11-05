@@ -10,6 +10,7 @@ The Training and Test data sets were merged into a single data set that focused 
 *`subject` - The ID of the subject
 *`activity` - the activiity performed by the subject and coorespdoning measurement
 
+
 ##Measurements
 *tBodyAcc-mean()-X
 *tBodyAcc-mean()-Y
