@@ -17,4 +17,9 @@ if (!file.exists("UCI HAR Dataset")) {
   unzip(week4file) 
 }
 
-##Test Change for Github
+##Select only mean and std from the features
+features<- read.table("features.txt")
+features<- features[grep("(.mean.|.std.)",features$V2),]
+##Remove the meanFrequency values
+features<- features[grep(".meanF.",features$V2, invert=TRUE),]
+
